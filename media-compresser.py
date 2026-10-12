@@ -919,9 +919,9 @@ def curses_main(stdscr):
     # Exit
     stdscr.clear()
     h, w = stdscr.getmaxyx()
-    draw_center(stdscr, h // 2, f"Bye! - {AUTHOR}", cp(1) | curses.A_BOLD, width=w)
+    draw_center(stdscr, h // 2, f"Bye! - [Hope You Like It]", cp(1) | curses.A_BOLD, width=w)
     stdscr.refresh()
-    time.sleep(0.8)
+    time.sleep(1.4)
 
 
 # ==================================================
